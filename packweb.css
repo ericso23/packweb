@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.back {
+    background-color: rgb(6, 35, 50);
+    height: 100%;
+   
+}
+.menu1 {
+    background-color: rgb(2, 19, 37);
+    display: flex;
+    padding: 10px;
+    color: aliceblue;
+}
+.menu1 a{
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    padding: 2px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 20px;  
+}
+.menu1 a:hover{
+    color: rgb(10, 188, 220);
+}
+
+.menu2 {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 174, 0);
+}
+
+.website {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+@keyframes slideTop {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.website h4 {
+    color: rgb(255, 255, 255);
+    
+}
+
+.website span {
+    color: aqua;
+    animation: slideRight .5s ease forwards;
+    animation-delay: 3s;
+    
+   
+}
+@keyframes slideRight {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.website h5 {
+    font-size: 15px;
+        color: aliceblue;
+        margin-left: 50px;
+        margin-top: 20px;
+        animation: slideTop .5s ease forwards;
+        animation-delay: 1s;
+}
+.twomenu {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.now {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
+.forms {
+    display: flex;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+.form1 {
+    background-color:rgb(5, 17, 30);
+    width: 300px;
+    height: 220px;
+    margin-left: 40px;
+    border-radius: 15px;
+} .form2 {
+    background-color:rgb(5, 17, 30);
+    width: 300px;
+    height: 220px;
+    margin-left: 40px;
+    border-radius: 15px;
+
+}
+.form3 {
+    background-color:rgb(5, 17, 30);
+    width: 300px;
+    height: 220px;
+    margin-left: 40px;
+    border-radius: 15px;
+    
+}
+
+.qui {
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-left: 230px;
+    line-height: 50px;
+    text-align: center;
+}
+.hover3 a :hover{
+    background-color: rgb(71, 99, 255);
+}
+.h3 span {
+    color:  rgb(247, 171, 8);
+    margin-left: 200px;
+    margin-top: -23px;
+}
+
+
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.details {
+    font-size: 15px;
+    margin-left: 450px;
+    margin-top: -270px;
+    color: aliceblue;
+
+}
+.Home {
+    display: flex;
+}
+.imagee {
+    margin-top: 150px;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 200px;
+    animation: slideLeft .5s ease forwards;
+    animation-delay: 2s;
+    
+}
+@keyframes slideLeft {
+    0%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.glow::before , .glow::after{
+    content:'' ;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background:linear-gradient(rgb(13, 240, 13),rgb(203, 21, 166),rgb(22, 114, 228),rgb(66, 231, 1));
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    background-size: 400px;
+    animation: animate 20s linear infinite;
+}
+.Aboutus{
+    display: flex;
+}
+.sempart {
+    margin-left: 200px;
+    margin-top: 150px;
+    color: aliceblue;
+}
+.me {
+    color: blue;
+    animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+.imageee {
+    margin-left: 40px;
+}
+.allparts {
+    margin-top: 300px;
+}
+.both {
+    margin-top: 200px;
+}
+.butto {
+    background-color: rgb(14, 238, 197);
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+}
+.more {
+    text-decoration: none;
+}
+.service {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 100px;
+}
+.allclass {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.mymy {
+    color: blue;
+}
+.company2 {
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.buto1 {
+    margin-left: 20px;
+}
+.skills {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+}
+.part3 {
+    display: flex;
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.technical {
+    margin-left: 300px;
+}
+.technical2 {
+    background-color:aqua;
+    width: 150px;
+    height: 3px;
+}
+.proff {
+    margin-left: 400px;
+}
+.proff2 {
+    background-color:aqua;
+    width: 170px;
+    height: 3px;
+}
+.project {
+    color: blue;
+    text-align: center;
+    margin-top: 50px;
+}
+.imagezone {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.image22 {
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+}
+.image11 {
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+}
+.image33 {
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+}
+@media (max-width:768px) {
+    .menu1 {
+        display: block;
+    }   
+}
+.contact1 {
+    display: flex;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+}
+.cont {
+    color: aliceblue;
+    margin-left: 200px;
+}
+.contact11 {
+    width: 100px;
+    display: block;
+    width: 200%;
+    margin-left: 30px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(92, 100, 100);
+   
+}
+.contact12 {
+    width: 200%;
+    margin-left: 30px;
+    padding: 8px;
+    border-radius: 5px;
+    height: 100px;
+    background-color: rgb(92, 100, 100);
+   
+
+}
+.gmail {
+    color: aliceblue;
+}

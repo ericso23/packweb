@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 181, 206);
+}
+.navbar {
+    width: 25%;
+    height: 300px;
+    background-color: rgb(160, 108, 165);
+    position: relative;
+    margin: 10% auto 0;
+    border-radius: 8px;
+}
+.information input{
+    display: block;
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 25px;
+    width: 250px;
+    margin-top: 20px;
+}
+.login {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.butoo {
+    width: 250px;
+    margin-left: 27px;
+    padding: 7px;
+    border-radius: 50px;
+    margin-top: 70px;
+}
+.remember a {
+    text-decoration: none;
+}
+.remember label {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.remember a {
+    margin-left: 35px;
+}
