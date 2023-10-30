@@ -43,8 +43,8 @@ body {
 }
 .imageee1 {
     border-radius: 50%;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
 }
 .imageee2 {
     border-radius: 50%;
@@ -66,6 +66,11 @@ body {
     width: 50%;
     height: 50%;
 }
-.imageee1:hover{
-    filter: brightness(.75);
+.imageee1.:hover{
+    filter: brightness(.60);
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 30%;
+    height: 30%;
+
 }

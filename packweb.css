@@ -165,6 +165,9 @@
     animation-delay: 2s;
     
 }
+.imagee:hover{
+    filter: brightness(.60);
+}
 @keyframes slideLeft {
     0%{
         transform: translateX(100px);
