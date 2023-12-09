@@ -6,20 +6,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="packweb.css">
     <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="packweb.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="packweb.js">
+        
+    </script>
 </head>
 <body>
-  
+
     
-    <div class="back">
+  
+    <div class="back" id='back'>
         <header class="menu1">
             <a href="#" class="umubavu">Portifolio</a>
             <ul class="ul">
                 <a href="#home">Home</a>
-                <a href="#Aboutus">About us</a>
+                <a id="about" href="#Aboutus">About us</a>
                 <a href="#allclass">Services</a>
                 <a href="#Skills" id="Skills">Skills</a>
                 <a href="#Project">Project</a>
                 <a href="#Contact">Contact</a>
+                <button id="show">
+                    show
+                </button>
+                <button id="hide">
+                    hide
+                </button>
+
             </ul>
         </header>
         
@@ -58,6 +70,14 @@
                     we also provide services related to wedding ceremonies.</p> <br>
                     <div>
                     <button class="butto"><a href="#" class="more">More About Me</a></button>
+                    <nav class="boxicons">
+                    <a href="#"><i class='bx bxl-instagram'></i></box-icon></a>
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    </nav>
+
+
                     </div>
         
             </div>
@@ -157,8 +177,33 @@
         </div>            
        
     </div>
+
+    <script>
+        var aboutbutton=document.getElementById('about');
+        var s=document.getElementById('show');
+        var h=document.getElementById('hide');
+
+        var back=document.getElementById("back");
+        var home=document.querySelector(".Home")
+         console.log("button",aboutbutton);
+        aboutbutton.addEventListener("click",()=>{
+           home.style.display='none'
+           console.log("button clicked");
+        })
+
+        s.addEventListener("click",()=>{con
+           home.style.display='block'
+    
+        });
+        h.addEventListener("click",()=>{
+           home.style.display='none'
+
+        });
+   </script>
     
 </body>
 </html>
+
+
 
 
